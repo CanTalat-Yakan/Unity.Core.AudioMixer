@@ -39,7 +39,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VoiceChat
+  m_Name: Voice
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 38f5458d87ba4ac48916dae11d056d6e
   m_Children: []
@@ -102,13 +102,13 @@ AudioMixerController:
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 1aded11d8a30132449557a8de5573318
-    name: Master
+    name: master
   - guid: 85337f452a4142f42ac8274095904087
-    name: Music
+    name: music
   - guid: 8ef6c692c2013534a931840f4404cb2b
-    name: Effects
+    name: effects
   - guid: 02574effd6a80b4499a0d59750be181d
-    name: VoiceChat
+    name: voice
   m_AudioMixerGroupViews:
   - guids:
     - f1ac5971382293747b810e620bdd6d89
