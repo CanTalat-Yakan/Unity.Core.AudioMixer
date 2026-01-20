@@ -64,7 +64,7 @@ using UnityEngine.Audio;
 AudioMixer mixer = Resources.Load<AudioMixer>("UnityEssentials_AudioMixer");
 
 // Or via UnityEssentials.ResourceLoader (optional)
-// var mixer = ResourceLoader.LoadResource<AudioMixer>("UnityEssentials_AudioMixer");
+// var mixer = ResourceLoader.TryGet<AudioMixer>("UnityEssentials_AudioMixer");
 ```
 
 Route an AudioSource to a group
